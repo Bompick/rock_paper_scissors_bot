@@ -10,7 +10,7 @@ class TgBot:
 class Config:
     # tg_bot: TgBot
     def __init__(self, tg_bot) -> None:
-        self. tg_bot = tg_bot
+        self.tg_bot = tg_bot
 
 
 def load_config(path: str | None = None) -> Config:
